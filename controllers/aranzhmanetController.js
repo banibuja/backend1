@@ -1,6 +1,6 @@
 require('dotenv').config();
 const nodemailer = require('nodemailer');
-const Aranzhmanet = require('../models/Aranzhmanet');
+const Aranzhmanet = require('../models/aranzhmanet');
 const Shtetet = require('../models/shtetet');
 const Airports = require('../models/airports');
 const User = require('../models/user'); 
